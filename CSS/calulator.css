@@ -1,0 +1,81 @@
+.bg{
+    background-color: rgb(12, 12, 40);
+    width: 400px;
+    height: 520px;
+    
+
+}
+.input{
+    width: 350px;
+    height: 100px;
+    display: block;
+    font-size: 30px;
+    text-align: end;
+    cursor: pointer;
+    backdrop-filter: blur(50px);
+}
+    
+.dot {
+    background-color: green;
+    color: white;
+    border-radius: 60px;
+    padding: 3px;
+  }
+  .dotoff{
+    background-color: red;
+    color: white;
+    border-radius: 60px;
+    padding: 3px;
+  }
+  .dot1{
+    background-color:orange;
+    color: white;
+    border-radius: 50%;
+    height: 15px;
+    width: 30px;
+    display:block;
+  }
+  .para{
+    display: inline;
+    color: white;
+  }
+  .ms{
+    display: flex;
+    margin: 10px;
+  }
+  .ms1{
+    flex-grow: 1;
+  }
+  
+  .span{
+    background-color: rgb(35, 35, 91);
+    color: white;
+    flex-grow: 1;
+    flex-basis: 0;
+    height: 50px;
+    width: 30px;
+
+  }
+  .first{
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .span1{
+    background-color: rgb(35, 35, 91);
+    color: white;
+    flex-grow: 1;
+    width: 50px;
+    height: 90px;
+  }
+  .second{
+    display: flex;
+    align-items: flex-start;
+  }
+  .span3{
+    background-color: rgb(35, 35, 91);
+    color: white;
+
+
+  }

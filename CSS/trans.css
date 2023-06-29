@@ -1,0 +1,79 @@
+.parent{
+    display: inline-block;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.grid>img{
+    height: 80px;
+    width: 100px;
+}
+.one:hover{
+    transform:rotate(180deg);
+    transition-duration: 2s;
+
+    
+
+}
+.two:hover{
+    transform: scaleY(-1);
+    transition-duration: 1s;
+    
+}
+.three:hover{
+    transform: scaleX(-1);
+    transition-duration: 2s;
+}
+.four:hover{
+    transform: rotate(90deg);
+    transition-duration: 0.5s;
+}
+.five:hover{
+    transform: scaleY(-1);
+    transform: rotate(300deg);
+}
+.six:hover{
+    transform:rotateZ(180deg);
+    transition: 3s;
+}
+.seven:hover{
+    
+    transition: 2s;
+    -webkit-box-reflect: right;
+}
+.eight:hover{
+    transform: translate(50px, 50px);
+}
+.nine{
+    transform: matrix(1, 0.3, 0, 1, 0, 0);
+
+}
+.one{
+    grid-column: 1;
+}
+
+.two{
+    grid-column: 2;
+}
+.three{
+    grid-column: 3;
+}
+.four{
+    grid-column: 1;
+}
+.five{
+    grid-column: 2;
+}
+.six{
+    grid-column: 3;
+}
+.seven{
+    grid-column: 1;
+}
+.eight{
+    grid-column: 2;
+}
+.nine{
+    grid-column: 3;
+}

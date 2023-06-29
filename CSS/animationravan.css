@@ -1,0 +1,64 @@
+.fourhead{
+        
+        position: relative;
+        animation: mymove 3s infinite;
+        animation-delay: 2s;
+}
+      
+      @keyframes mymove {
+        from {top: 0px;}
+        to {top: -250px;}
+
+}
+.singlehead{
+    position: relative;
+    animation: mymove1 3s infinite;
+    animation-delay: 2s;
+}
+  
+  @keyframes mymove1 {
+    from {right: 0px;}
+    to {right: 60px;}
+    from{top:0px;}
+    to{top:50px;}
+
+}
+.secondsinglehead{
+    position: relative;
+    animation: mymove2 3s infinite;
+    animation-delay: 2s;
+}
+  
+  @keyframes mymove2 {
+    from {right: 0px;}
+    to {right: 70px;}
+    from{top:0px;}
+    to{top:-490px;}
+    
+
+}
+.secondfourhead{
+    position: relative;
+    animation: mymove3 3s infinite;
+    animation-delay: 2s;
+}
+  
+  @keyframes mymove3 {
+
+    from{top:0px;}
+    to{top:-790px;}
+    
+
+}
+.body{
+    position: relative;
+    animation: mymove4 3s infinite;
+    animation-delay: 2s;
+}
+  
+  @keyframes mymove4 {
+
+    from{top:0px;}
+    to{top:-1080px;}
+
+}

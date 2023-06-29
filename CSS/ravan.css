@@ -1,0 +1,134 @@
+.parent{
+    
+    display:inline-block;
+
+}
+.grid>img{
+    height: 110px;
+    width: 110px;
+    border-radius: 3px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+
+}
+.one{
+    grid-column: 1;
+
+
+}
+.two{
+    grid-column: 2;
+    
+
+}
+.three{
+    grid-column: 3;
+
+}
+.five{
+    grid-row: 1;
+    grid-column: 4;
+}
+.four{
+    grid-row: 1;
+    grid-column: 5;
+}
+
+.seven{
+    grid-column: 1;
+}
+.six{
+    grid-column: 3;
+    grid-row:2/4;
+   width: 110px !important;
+
+}
+.eight{
+    grid-column: 2;
+}
+.nine{
+    grid-column: 4;
+    
+}
+.ten{
+    grid-column: 5;
+}
+
+.body{
+    grid-column: 2/5;
+    grid-row:3;
+    width: 300px !important;
+    height: 110px !important;
+    
+
+}
+.right{
+    grid-column: 1;
+    grid-row: 3;
+    height: 110px !important;
+}
+.bd1{
+    grid-column: 2;
+    grid-row: 3;
+}
+.bd2{
+    grid-column: 3;
+    grid-row: 3;
+    
+}
+.bd3{
+    grid-column: 4;
+    grid-row: 3;
+    
+
+}
+.left{
+    grid-column: 5;
+    grid-row: 3;
+    height: 110px !important;
+    width: 110px !important;
+}
+.six:hover{
+    -webkit-box-reflect: above;
+}
+.one:hover{
+    transform:rotate(180deg);
+    transition-duration: 2s;
+    
+
+    
+
+}
+.two:hover{
+    transform: scaleY(-1);
+    transition-duration: 1s;
+    
+}
+.three:hover{
+    transform: scaleX(-1);
+    transition-duration: 2s;
+
+}
+.four:hover{
+    -webkit-box-reflect: below;
+    transition-duration: 0.5s;
+ 
+}
+.five:hover{
+    transform: scaleY(-1);
+    transform: rotate(300deg);
+}
+
+
+.seven:hover{
+    
+    transition: 2s;
+    -webkit-box-reflect: right;
+}
+.eight:hover{
+   
+}
+
+

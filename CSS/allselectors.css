@@ -1,0 +1,9 @@
+header li{
+    list-style-type: none;
+}
+header div{
+    display: flex;
+}
+header nav{
+    display:flex;
+}

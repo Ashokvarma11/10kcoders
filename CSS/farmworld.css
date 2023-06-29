@@ -1,0 +1,41 @@
+.banner{
+    background-color: white;
+    height: 550px;
+    width: auto;
+    text-align: center;
+    position: relative;
+
+}
+.farm{
+    color: red;
+    appearance: black stroke;
+}
+.cow{
+    position: absolute;
+    bottom: 0px;
+    left: 400px;
+}
+.sun{
+    position:absolute;
+    top: 20px;
+    right: 20px;
+}
+.land{
+    position: relative;
+    background-color: #BABF51;
+    height: 160px;
+    width: auto;
+    bottom: 10x;
+    
+}
+.sheep{
+    position: absolute;
+    bottom: 30px;
+    left: 250px;
+}
+.tree{
+    position: absolute;
+    bottom: 1px;
+    right: 200px;
+
+}
